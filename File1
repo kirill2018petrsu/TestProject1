@@ -27,6 +27,9 @@ namespace ConsoleApplication3
                     if (b < 0)
                         Console.WriteLine("Нет корней");
                 }
+                
+                
+               SANDBOX     SANDBOX     SANDBOX     SANDBOX     SANDBOX     SANDBOX     SANDBOX     SANDBOX     SANDBOX
             else
             {
                 c = (float)b / a;
