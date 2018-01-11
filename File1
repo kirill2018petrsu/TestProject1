@@ -24,6 +24,13 @@ namespace ConsoleApplication3
                 {
                     if (b > 0)
                         Console.WriteLine("Бесконечно много корней");
+                    if (b < 0)
+                        Console.WriteLine("Нет корней");
+                }
+            else
+            {
+                c = (float)b / a;
+                if (b == 0)
                     Console.WriteLine("Бесконечно много корней");
                 if (c < 0)
                     Console.WriteLine("Нет корней");
